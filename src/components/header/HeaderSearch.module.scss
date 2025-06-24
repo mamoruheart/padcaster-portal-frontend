@@ -1,0 +1,25 @@
+@import '../../styles/shared.scss';
+
+.container {
+  height: auto;
+  margin-left: $pageMargin;
+  position: relative;
+}
+
+.searchInput {
+  border-width: 0px;
+  border-bottom: 1px solid transparent;
+  height: 40px;
+  width: 300px;
+  padding-left: 40px;
+  font-size: 10pt;
+}
+
+.searchInput:hover {
+  border-bottom: 1px solid $colorActionHover;
+}
+
+.searchInput:focus-visible {
+  outline: none;
+  border-bottom: 1px solid $colorAction;
+}
